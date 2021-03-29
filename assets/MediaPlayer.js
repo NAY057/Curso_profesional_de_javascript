@@ -6,7 +6,7 @@ function MediaPlayer(config) {
 
   MediaPlayer.prototype._initPlugins = function() {
     this.plugins.forEach(plugin => { plugin.run(this); })
-  };
+  }; 
 
   MediaPlayer.prototype.play = function() {
     this.media.play();

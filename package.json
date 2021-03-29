@@ -4,13 +4,18 @@
   "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
   "main": "index.js",
   "scripts": {
-    "start":  "live-server"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
-  "keywords": ["platzi"],
-
-  "devDependencies":  {
-        "live-server":  "^1.2.1"
+  "keywords": [
+    "platzi"
+  ],
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "parcel-bundler": "^1.12.5"
   },
+  "browserslist":[
+    "last 1 Chrome version"
+  ],
   "author": "Nicolas Aguirre Yacup",
   "license": "ISC"
 }
