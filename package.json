@@ -10,7 +10,8 @@
     "platzi"
   ],
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.2.3"
   },
   "browserslist": [
     "last 1 Chrome version"
