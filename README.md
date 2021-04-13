@@ -32,3 +32,40 @@ Cuando llamamos a this desde una función que está contenida en un objeto, this
 # “clase”
 Cuando llamamos a this desde una “clase”, se hace referencia a la instancia generada por el constructor.
 
+
+# Patrones de diseño
+ 
+➡️Creacionales
+Proveen diferentes mecanismos para crear objetos.
+
+    Abstract Factory
+    Builder
+    Factory Method
+    Prototype
+    Singleton
+     
+    ➡️Estructurales
+    Describen formas de componer objetos para formar nuevas estructuras flexibles y eficientes.
+    Adapter
+    Bridge
+    Composite
+    Decorator
+    Facade
+    Flyweight
+    Proxy
+     
+    ➡️Comportamiento
+    Gestionan algoritmos y responsabilidades entre objetos.
+    Chain of Responsibility
+    Command
+    Interpreter
+    Iterator
+    Mediator
+    Memento
+    Observer
+    State
+    Strategy
+    Template Method
+    Visitor
+
+

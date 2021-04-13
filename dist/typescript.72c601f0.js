@@ -118,7 +118,31 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"ejercicios/typescript/index.ts":[function(require,module,exports) {
-console.log("Hola, pyscript 2");
+console.log("Hola, pyscript 2"); // let x:[string,number]
+// let x = ['hola',10]
+// console.log(x)
+// x.push('nico')
+// console.log(x)
+// enum color{
+//     azul = 'azul',
+//     rojo = 'rojo'
+// }
+// interface Car {
+//     año: number,
+//     modelo: string,
+//     color?: color
+// }
+// let vehiculo: Car = {
+//     año: 1995,
+//     modelo: 'chevrolet sprint',
+//     color: color.azul
+// }
+// let fecha = new Date()
+// function calcular_años_del_carro(c:Car): number {
+//     return fecha.getFullYear() - c.año
+// }
+// const mostrar_carro = calcular_años_del_carro(vehiculo)
+// console.log(`En el dia de hoy ${fecha.toLocaleDateString()} el carro de color ${vehiculo.color}, modelo ${vehiculo.modelo} y del año ${vehiculo.año} tipo actualmente `+ mostrar_carro);
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -147,7 +171,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56845" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60079" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
